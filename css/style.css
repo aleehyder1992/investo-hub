@@ -1,0 +1,287 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero-section {
+  margin: 25px 0 25px 0;
+}
+.hero-section p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35.51px;
+  letter-spacing: -1.5%;
+}
+
+.hero-btn {
+  border-radius: 10px;
+  padding: 10px 70px 10px 70px;
+}
+
+.counters {
+  margin: 70px 60px 70px 60px;
+  background-color: #2b72920a;
+  border-radius: 30px;
+  padding: 30px 0 30px 0;
+}
+
+.counters h2 {
+  font-size: 75px;
+  font-weight: 700;
+  color: #a6c245;
+}
+
+.counters h1 {
+  font-size: 75px;
+  font-weight: 700;
+  color: #2fbbf6;
+}
+
+.counters p {
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+
+.about-us {
+  margin: 70px 0 70px 0;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 43px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-us p {
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.investors {
+  margin: 160px 0 160px 0;
+}
+
+.investors h1 {
+  font-size: 48px;
+  font-weight: 400;
+  border-bottom: 10px solid #68ba66;
+  margin: 0 420px 0 0;
+}
+
+.investors p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: -1.5%;
+}
+
+.advisors {
+  margin: 160px 0 160px 0;
+}
+
+.advisors h1 {
+  font-size: 48px;
+  font-weight: 400;
+  border-bottom: 10px solid #68ba66;
+  margin: 0 420px 0 0;
+}
+
+.advisors p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: -1.5%;
+}
+
+.investments {
+  margin: 160px 0 160px 0;
+}
+
+.investments h1 {
+  font-size: 48px;
+  font-weight: 400;
+  border-bottom: 10px solid #68ba66;
+  margin: 0 325px 0 0;
+}
+
+.investments p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: -1.5%;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  background-color: #2b7292;
+  border: 2px solid white;
+  border-radius: 25px;
+  margin: 30px 10px -50px 0px;
+}
+
+.card-1 h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0 10px 10px;
+}
+
+.card-1 p {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 10px 0 10px 10px;
+}
+
+.card-1 {
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.card-icons {
+  margin: 20px 0 0 200px;
+}
+
+.card-box {
+  background-color: #d9d9d933;
+}
+
+.polygon-1 {
+  margin: -20px 0 -50px -15px;
+  z-index: -1;
+  position: absolute;
+}
+
+.polygon-2 {
+  margin: -20px 0 -20px 530px;
+  z-index: -1;
+  position: absolute;
+}
+
+.catogaries {
+  margin: 0 120px 0 120px;
+}
+
+.catogaries h2 {
+  font-size: 48px;
+  font-weight: 400;
+  border-bottom: 10px solid #68ba66;
+}
+
+.card-2 h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.testimonials {
+  margin: 70px 120px 70px 120px;
+  background-color: #2b72920a;
+  padding: 30px 0 30px 50px;
+}
+
+.sign-in-form {
+  border: 2px solid #2b7292;
+  margin: 70px 120px 70px 120px;
+  padding: 30px 0 30px 50px;
+}
+
+.sign-in {
+  background-color: #2b7292;
+  margin: -30px 0 -30px 0;
+  padding: 0 0 0 0;
+}
+
+.form-container {
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.placeholder-2::placeholder {
+  color: white;
+}
+
+.footer {
+  background-color: #2b7292;
+  margin: 70px 0px 0px 0px;
+  padding: 30px 0 30px 50px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.footer-links li {
+  list-style: none;
+  line-height: 2;
+  color: white;
+}
+
+.footer-icons {
+  color: white;
+  font-size: 35px;
+  padding: 10px;
+}
+
+.fb {
+  padding-right: 10px;
+}
+
+.footer-brand {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-text {
+    margin: 15px 0 15px 0;
+  }
+  .hero-text img {
+    width: 100%;
+  }
+
+  .hero-img img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .investors,
+  .investments {
+    margin: 0 0 20px 0;
+  }
+
+  .advisors {
+    flex-direction: column-reverse;
+  }
+
+  .catogaries {
+    text-align: center;
+    margin: 20px 0 0 0;
+  }
+
+  .catogaries img {
+    width: 100%;
+  }
+
+  .testimonials {
+    margin: 0;
+  }
+
+  .sign-in-form {
+    margin: 0;
+  }
+
+  .sign-in {
+    margin: 0 0 0 -25px;
+  }
+}
